@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#skip a {
+    position: absolute;
+    left: 10px;
+    top: -92px;
+    z-index: 100000;
+    font-size: 1rem;
+    padding: 10px 30px;
+    color: var(--white);
+    background: var(--black);
+}
+
+#skip a:focus,
+#skip a:active {
+    top: 10px;
+}
